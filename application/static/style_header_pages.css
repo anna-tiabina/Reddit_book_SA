@@ -1,0 +1,264 @@
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  width:100%;
+  background-image: url("ccb_logo.png"); 
+  background-color: #1d2549;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+
+.text_h1{
+  font-family: 'Codec Pro', sans-serif;
+  font-size: 50px;
+  color: #bdf347;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  animation: 2s anim-lineUp ease-out;
+}
+
+.text_lead{
+  font-family: 'Codec Pro', sans-serif;
+  color: white;
+  text-align: left;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  font-size: 20px;
+  animation: 2s anim-lineUp ease-out;
+}
+
+
+/* Animation */
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+.animation {
+  height:60px;
+  overflow:hidden;
+  animation: 2s anim-lineUp ease-out;
+
+  }
+
+.animation > div > div {
+  height: 3rem;
+  margin-bottom: 3rem;
+  display:inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 20s infinite;
+}
+
+.first div {
+  font-family: 'Codec Pro', sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  
+}
+.second div {
+  font-family: 'Codec Pro', sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  
+}
+.third div {
+  font-family: 'Codec Pro', sans-serif;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
+  
+}
+
+@keyframes text-animation {
+  0% {margin-top: 0;}
+  10% {margin-top: 0;}
+  20% {margin-top: -6rem;}
+  30% {margin-top: -6rem;}
+  40% {margin-top: -12rem;}
+  60% {margin-top: -12rem;}
+  70% {margin-top: -6rem;}
+  80% {margin-top: -6rem;}
+  90% {margin-top: 0;}
+  100% {margin-top: 0;}
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+.inner {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 20px;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5)
+  font-family: 'Codec Pro', sans-serif;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
+}
+
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  
+}
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #1d2549;
+  background-color: #bdf347;
+  border: 1px solid #bdf347;
+  font-family: 'Codec Pro', sans-serif;
+  font-size: 20px;
+  border-radius: 0px;
+  text-align: center;
+  animation: 2s anim-lineUp ease-out;
+}
+
+
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
+
+
+/*
+ * Affix and center
+ */
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 700px;
+  }
+}
+
+
