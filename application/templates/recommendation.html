@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>About us</title>
+       <link href="https://fonts.cdnfonts.com/css/codec-pro" rel="stylesheet">
+       <link rel="stylesheet" href="{{url_for('static', filename ='style_header_pages.css')}}">
+   </head>
+
+  <body>
+    <div class="site-wrapper">
+      <div class="site-wrapper-inner">
+        <div class="cover-container">
+          <div class="inner cover">
+            <h1 class="text_h1">The Reddit community recommends</h1>
+            <p class="text_lead">
+              {{review}} 
+            </p>
+            <br>        
+          </div>     
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

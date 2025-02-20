@@ -1,0 +1,8 @@
+{
+    "application-web": {
+        "image": ":application-web-service.application-web-container.5",
+        "ports": {
+            "5000": "HTTP"
+        }
+    }
+}
