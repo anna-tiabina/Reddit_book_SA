@@ -17,13 +17,15 @@ import evaluate
 app = Flask(__name__)
 
 def get_sentiment(review):
-    """The function utilizes the tokenizer and the model to predict a class of the review (positive - 1, negative - 0), returns torch.Tensor"""
+    """The function utilizes the tokenizer and the model to predict a class of the review (positive - 1, negative - 0), returns numpy.ndarray"""
     tokenizer = DistilBertTokenizer.from_pretrained("distilbert-base-uncased-finetuned-sst-2-english")
     model = DistilBertForSequenceClassification.from_pretrained("distilbert-base-uncased-finetuned-sst-2-english")
     inputs = tokenizer(review, truncation=True, return_tensors="pt", padding=True)
     with torch.no_grad():
         logits = model(**inputs).logits
-    predictions = np.argmax(logits, axis=-1)
+    app_probabilities = softmax(logits, axis=1)
+    app_threshold = 0.2
+    predictions = (app_probabilities[:, 1] > app_threshold).astype(int)
     return predictions
 
 
@@ -39,7 +41,7 @@ def get_review():
     for post in hot_posts: 
         review = post.title + " " + post.selftext
         predictions = get_sentiment(review)
-        if predictions == torch.Tensor([1]):
+        if predictions == array([1]):
             return review
         else:
             continue
