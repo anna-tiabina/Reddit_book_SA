@@ -5,7 +5,7 @@ The unittest module allows a developer to test the module app_Reddit, namely, if
 
 """
 import unittest
-import torch
+import numpy as np
 from app_Reddit import get_review, get_sentiment 
 
 
@@ -20,9 +20,9 @@ class TestRedditApp(unittest.TestCase):
 
     def test_get_sentiment(self):
         """
-        The function to test whether the sentiment model works properly. The testing review is positive and the function get_sentiment should return the prediction equal to torch.Tensor([1])
+        The function to test whether the sentiment model works properly. The testing review is positive and the function get_sentiment should return the prediction equal to array([1]), the function return numpy.ndarray)
         """
-        self.assertEqual(get_sentiment(review), torch.Tensor([1]))
+        self.assertEqual(get_sentiment(review), array([1]))
 
 
 if __name__ == "__main__":
