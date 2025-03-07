@@ -1,4 +1,4 @@
-body,label,sentiment,sentiment_label,sentiment_mod
+body,label,sentiment,sentiment_label,sentiment_mod,indx
 "Trauma, Dissociation, and The Time Traveler's Wife CW: dissociation, violent death
 
 One of my beliefs about literature is that it's complex—maybe more complex than one person can process. That's because, when we read, our minds are temporarily jacked in to another person's stream of consciousness. A prepared, orchestrated consciousness, but nonetheless a set of thoughts that came from another mind, which are now being ""broadcast"" into our minds. But, of course, our minds wander; certain words may trigger different associations for different readers; certain events may trigger different memories. So a text is never just the words on paper, and trying to claim that a text means just one thing is, by definition, a doomed enterprise.
@@ -29,7 +29,7 @@ But Henry doesn't only depersonalize; he experiences>! his return to the scene o
 
 >!Of course, the difference between Henry and the ordinary sufferers of depersonalization is that he can actually interact with his younger self in the moment of his trauma. He calls his father with a message to go to the hospital, puts a blanket around his younger self's shoulders.!< This is the fantasy of trauma: that, given the chance, we would go back and change things for our younger self. But the cost of doing so is that Henry>!must experience the moment of his mother's death over and over again. His time-travel becomes a vehicle for the expression of a mental illness that centripetally compels him to the same point in time over and over again. And there are real limits to what he can do to help himself in the past, as the book illustrates time and time again when emphasizing the theme of determinism. He cannot actually do anything to keep his mother from dying. !<
 
-Mental illnesses are often complex and difficult to understand, even (or especially) for the people who suffer from them, but Niffenegger seems to have dramatized two such illnesses in the form of Henry's time-traveling >!repeatedly back to the site of his mother's death.!< She imagines a world where the operations of our mind can be externalized and seen, written into space-time as a form of >!eternal return to our trauma,!< but also a world where we are equipped >!to provide small comforts to our traumatized selves. A phone call here, a blanket there.!< And who knows what small kindness might make a difference?",1,-77.0,0,77.0
+Mental illnesses are often complex and difficult to understand, even (or especially) for the people who suffer from them, but Niffenegger seems to have dramatized two such illnesses in the form of Henry's time-traveling >!repeatedly back to the site of his mother's death.!< She imagines a world where the operations of our mind can be externalized and seen, written into space-time as a form of >!eternal return to our trauma,!< but also a world where we are equipped >!to provide small comforts to our traumatized selves. A phone call here, a blanket there.!< And who knows what small kindness might make a difference?",1,-77.0,0,77.0,52
 "Ideology and Imagining Death in Sebastian Junger's The Perfect Storm >""I had pictures of what happened, images: Bobby and Sully and Murph just bug-eyed, knowing this is the final moment, looking at each other and this jug of booze goin' around real fast because they're tryin' to numb themselves out, and then Bobby goes flyin' and Sully goes under. But what was the final moment? What was the final, final thing?""
 
 *The Perfect Storm* by Sebastian Junger, page 168
@@ -54,7 +54,7 @@ He hedges his prose with what ""could have"" happened, rather than trying to wri
 
 *The Perfect Storm* by Sebastian Junger, page 146
 
-But this is only the pretense of knowledge, a substitute for the information that Christina Cotter tries to summon when she imagines the crew's final moments. However, I take the substitution to be a practical one: Junger is no more capable of imagining their deaths than Christina is. (And, indeed, maybe less so, since she actually knew the men.) And yet, even though the fascination is morbid, there is something about the clinical description that appeals to the reader. It offers an abstracted portrait of the deaths of six men—and promises that our own death, when it comes, will be, in some small way, knowable.",1,-38.0,0,38.0
+But this is only the pretense of knowledge, a substitute for the information that Christina Cotter tries to summon when she imagines the crew's final moments. However, I take the substitution to be a practical one: Junger is no more capable of imagining their deaths than Christina is. (And, indeed, maybe less so, since she actually knew the men.) And yet, even though the fascination is morbid, there is something about the clinical description that appeals to the reader. It offers an abstracted portrait of the deaths of six men—and promises that our own death, when it comes, will be, in some small way, knowable.",1,-38.0,0,38.0,169
 "Do you read newly released books, or do you stick to the classics? My fiancée loves contemporary poplit authors like Coleen Hoover and books like The Love Hypothesis and Where the Crawdads Sing. 
 
 Most poplit doesn’t appeal to me—I reached this conclusion after reading the drivel that was Ready Player One (just my opinion, I don’t mind if you like it). I think, ultimately, that I believe every great story has already been written. So why try to find something new?
@@ -67,7 +67,7 @@ By “today’s books” I guess I mean everything post/internet, as I believe t
 
 I also think contemporary fiction tends to emphasize plot over characters or themes. Personally, those things are my jam, and that’s why I’m looking forward to reading Cormac McCarthy’s latest books (ironically enough). Any recommendations your have for contemporary books in this vein, I’ll take them!
 
-I’m rambling now, but I’ll pose the question—do you tend to gravitate toward “canonized” literature, or do you like to keep up with what’s popular now? Or do you not fret about that stuff in general?",0,35.0,1,35.0
+I’m rambling now, but I’ll pose the question—do you tend to gravitate toward “canonized” literature, or do you like to keep up with what’s popular now? Or do you not fret about that stuff in general?",0,35.0,1,35.0,151
 "The Crossing by Cormac McCarthy I shared my thoughts on ""The Road"" a while back, and after being recommended ""The Crossing"" by a fellow Redditor, I thought I'd post a follow-up. 
 
 I'll start as bluntly as possible. The Road gutted me like a cold, dry fish. I loved it from start to finish and hated it for the way it made me feel, and that is quite a rare combination. I'll also likely never forget that book. Still, after hearing about The Crossing, I was understandably excited. It wouldn't be the same, sure, but I had high hopes for more in the way of subtle human desperation and raw emotion. Thus, I jumped straight in and got to it. 
@@ -78,19 +78,19 @@ I tried to love this book, and at first, I did. Don't get me wrong, it's not poo
 
 I'd love to discuss the book. I didn't care for it in the end, but that's why I'm here. 
 
-Finally, I'm aware that The Crossing is part of a trilogy.",0,28.0,1,28.0
+Finally, I'm aware that The Crossing is part of a trilogy.",0,28.0,1,28.0,276
 """What am I missing with this book?"" thread! I just finished reading Parable of the Sower by Octavia Butler. I love sci fi and I know this one is hugely acclaimed but it just didn't click with me. I found the MC a bit cloyingly perfect and the other characters bland. I felt like I was reading a mission statement rather than a novel. 
 
 Whenever I read a super famous book like this and don't get it, I always end up wishing I could understand WHY people love it so much. 
 
-So, post the acclaimed books you read and just didn't quite ""get"", and others can answer and attempt to explain what it is about these books that makes them so beloved, with the goal of trying to change your perspective on it!",0,26.0,1,26.0
+So, post the acclaimed books you read and just didn't quite ""get"", and others can answer and attempt to explain what it is about these books that makes them so beloved, with the goal of trying to change your perspective on it!",0,26.0,1,26.0,125
 "Reading “I’m Glad My Mom Died” soon after my own mom died. I had a very tense relationship with my mom and she died unexpectedly this year. Jennette McCurdy’s book came out shortly after her funeral and I considered reading it right away but thought it would be better for my mental health to wait a few months. Last week I decided it was time. I finished it in less than a day.
 
 I’ve struggled with an eating disorder since I was in high school. My mom, though she was a good person, had her own issues with food and was one of the main causes of my bulimia. She was also very religious. I think my own childhood helped me to view McCurdy’s memoir through a different lens. I know what religious trauma can do to you. I know how eating disorders can easily be sparked by some careless words and nurtured by family members. I know how confusing it is when a parent dies and you have conflicting emotions about it. Ungenerous thoughts you’re afraid to even admit. 
 
 McCurdy’s description of the days surrounding her mom’s death hit me hard. Some chapters could’ve been taken from my journal. It’s odd to have such a similar experience as a complete stranger. I laughed, I cried, and I gritted my teeth to get through this book. Part of me is glad I choose to read it after all and part of me wishes I never picked it up.  
 
-Have any of you had a similar experience with this memoir? Or any another book where you read it at a time in your life when it aligned closely with what was happening to you and was a very emotional read for you?",1,-26.0,0,26.0
+Have any of you had a similar experience with this memoir? Or any another book where you read it at a time in your life when it aligned closely with what was happening to you and was a very emotional read for you?",1,-26.0,0,26.0,230
 "I had to read The Death of Ivan Iliych for one of my classes this semester. I expected it to be a drag but it legitimately hit me hard It's a very short book at about 50 some odd pages, but considering I was juggling it in the same semester as Calc II, Biochem, and JPN III, it seemed like nothing but a time waste (my fault for taking a philosophy class during a dense semester), but I actually ended up loving it so much I read the entire thing in one sitting despite it being broken up in the syllabus over 3 weeks. 
 
 Ivan was far from being any sort of sympathetic character, and even at the end of the book I found myself not feeling bad for him, but the ideas and concepts brought up in the book are what hooked and affected me. The idea that no matter how much money or man power you throw at it, death inevitably comes for us all. The pain of needing to still exist despite knowing your end is soon, the anguish of realizing all you ever wanted or achieved is for nothing, the reality of being alone in death, and swiftly being forgotten afterwards, it's so crushing man like holy hell.
@@ -101,7 +101,7 @@ The best way I can put it is, imagine you're about to skydive and you're absolut
 
 That's what Ivan Iliych did for me and death. I'm not any less afraid nor accepting of it, but I now have the mentality of ""he managed to get through this, so I can too.""
 
-Anyway gushing and existentialism over. It's a great book. If you find your self mortified at your mortality, try giving this a read.",1,-23.0,0,23.0
+Anyway gushing and existentialism over. It's a great book. If you find your self mortified at your mortality, try giving this a read.",1,-23.0,0,23.0,21
 "Ronnie Spector (Be My Baby Memoir) A Real Flower in the Attics Life  I finally decided to get around to reading/listening to Ronnie Spector's memoir and **BA-BY!** A true horror story one would think Stephen King made it up. Sadly, for Ronnie her years with her ex weren't just a story, it was her real life.  
 
 
@@ -154,14 +154,14 @@ Some of the things I picked out from the memoir of Phil and Ronnie's marriage:
 
  The Ronettes deserved so much better! They had years of great music and songs to give to the world, but they couldn't because some dude was too insecure to let a young beautiful, talented, woman be the star that she was. Rest in Peace/Rest in Heaven Ronnie and Estelle. 
 
-I didn't realize how deep Ronnie's story goes. Did anybody else know Ronnie and her group the Ronettes history before her memoir came out?",1,-21.0,0,21.0
+I didn't realize how deep Ronnie's story goes. Did anybody else know Ronnie and her group the Ronettes history before her memoir came out?",1,-21.0,0,21.0,51
 "The Song of Achilles would have been a way better book if it was told from Achilles' pov. When I first read Song of Achilles I felt very disappointed because it was so hyped up everywhere. At a certain point I felt like the book was just going on and on without end and I had to even put it down for a few weeks. Don't get me wrong I believe that the author is very skilled and her writing style was beautiful but I felt like all the potential in this book was wasted. The potential of a story from Achilles' pov would have been way better than Patroclus' and here's why.
 
 * Patroclus is a great character in the Iliad, and what little we got from him I enjoyed. Unfortunately, the most iconic aspect of Patroclus' character was his death and not his ACTUAL character, like his personality and motives. I'm not sure if this is just that Patroclus is heavily insecure about himself, but he rarely talks ABOUT himself, always about Achilles. Achilles is great but we already know him. Patroclus' pov did nothing but glorify and praise Achilles with little to no attention regarding himself. By seeing in Achilles' pov, we could have understood more why he loved Patroclus so much and be told information we already know.
 * The romance felt one-sided on Patroclus' part. Patroclus has done many things showing that he loved Achilles ~~almost too much~~ he went to war with him, he was constantly by his side no matter what, he forgave Achilles for almost everything super quickly, he kissed Achilles first, i can probably say more if I went back into the book and wrote it all out. But Achilles seems like he doesn't really care about Patroclus or his feelings until the moment Patroclus is dead. We need to see passion on Achilles' part to understand his justified anger when Patroclus is killed. 
 * Achilles' personality was bland because of Patroclus (unfortunately). Because Patroclus almost refuses to genuinely criticize Achilles (ever) until the end and even then he's not as angry as I expected him to be. Achilles is portrayed as this beautiful, talented, strong, intelligent, and brave force of nature, but his negative traits is pretty much non-existent, He never shows the rage, nor the arrogance and childishness that he has later on in the Trojan War. He's just perfect all the time and that's boring (and ruins the romance even more). 
 
-(Note: This wasn't a planned out rant I just genuinely needed to get this off my mind. Fortunately, I did read a fanfic of song of Achilles that scratched the itch I had ever since I read Song of Achilles, so that's great.)",0,20.0,1,20.0
+(Note: This wasn't a planned out rant I just genuinely needed to get this off my mind. Fortunately, I did read a fanfic of song of Achilles that scratched the itch I had ever since I read Song of Achilles, so that's great.)",0,20.0,1,20.0,5
 "Ulysses - Joyce sabotages a nascent reader 
 
 It was about 7 years ago that I fondly desired to read. And I mean everything, from Homer to ..Murakami! I wanted to start with the most remarkable books of all time, needing to fill my lack of literacy and take a breath in the air of the finest novelists. 
@@ -176,16 +176,16 @@ Perhaps it's a matter of poor translation, hence I tested to read it in English 
 
  I gave all of myself to Ulysses, as hard as possible. That experience (let's overreact a little more) drops off part of my self-esteem. Let's put it simply. I feel stupid reading Ulysses. Maybe I am, why not?
 
-So, I was wondering if I have to keep reading it because redemption is soon to be here, kind of ""have faith, my son!"" Or shall I put it in the ""freezer"" for a little while and step inside this pandemonium later in my reading career? Shall I start the James Joyce experience with some other work and then turn back to this one?",0,19.0,1,19.0
+So, I was wondering if I have to keep reading it because redemption is soon to be here, kind of ""have faith, my son!"" Or shall I put it in the ""freezer"" for a little while and step inside this pandemonium later in my reading career? Shall I start the James Joyce experience with some other work and then turn back to this one?",0,19.0,1,19.0,297
 "Fairy Tale by Stephen King. I’m going to start this by saying I’m *very* fond of Stephen King. I haven’t read all of his books or seen all the movies but I watch and read a lot. I’ve loved everything of his I’ve seen and read so far. Fairy Tale is an exception to the rule. 
 
 The first half or so of the book is as good as expected for King fans. It’s his usual creepy crawly setup where you’re not entirely sure who the monster is. I love that since I’m usually too dense to guess what it is or what’s going on. It’s part of the joy. 
 
-Then we get to the 2nd part of the book where the fairy tale references start and King has his monster coming. Without the narrator of the audiobook I feel like this half kind of would have fallen on its face. I love and knew every reference. I knew everything going on in the stories and as a result could quickly figure out what was happening for once. One reference in particular basically gave me the ending at one point which honestly almost made me turn the audiobook off. Without what was frankly an amazing narrator it would have fallen flat for me.",0,19.0,1,19.0
+Then we get to the 2nd part of the book where the fairy tale references start and King has his monster coming. Without the narrator of the audiobook I feel like this half kind of would have fallen on its face. I love and knew every reference. I knew everything going on in the stories and as a result could quickly figure out what was happening for once. One reference in particular basically gave me the ending at one point which honestly almost made me turn the audiobook off. Without what was frankly an amazing narrator it would have fallen flat for me.",0,19.0,1,19.0,40
 "A nasty kind of high: ""A Scanner Darkly"" by Philip K. Dick. So tonight I've wrapped up reading Philip K. Dick's ""A Scanner Darkly"" and, well, I was taken on a mighty bizarre trip!
 
 This novel, set in  a dystopic  California, revolves around a mind altering drug known as substance D (also known as death in the book). Substance D is not an ordinary drug, for it not only alters the mind but it literally splits it in half. 
 
 And of course the two main characters, or should we say character. Fred a law enforcement officer who wears a camouflaging device known as a scrambler suit. And Bob Arctor a substance D dealer who also takes the drug himself. Fred actively pursues Arctor, but what they don't realize, as a result of the effects of substance D, they are both the same person and both become completely paranoid as time goes on. Bob avoids Fred while Fred avoids his own bosses.
 
-This is how the Seattle Post-Intelligencer describes the book best,""Shot through with schizophrenia, paranoia and the inability to know what is real."" Can't argue with that! Philip K. Dick use of the concept of identity is very prevalent in this work and it works well.",1,-18.0,0,18.0
+This is how the Seattle Post-Intelligencer describes the book best,""Shot through with schizophrenia, paranoia and the inability to know what is real."" Can't argue with that! Philip K. Dick use of the concept of identity is very prevalent in this work and it works well.",1,-18.0,0,18.0,1
