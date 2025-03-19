@@ -13,6 +13,8 @@ import torch
 from transformers import DistilBertTokenizer, DistilBertForSequenceClassification
 import numpy as np
 import evaluate
+from scipy.special import softmax
+
 
 app = Flask(__name__)
 
@@ -41,7 +43,7 @@ def get_review():
     for post in hot_posts: 
         review = post.title + " " + post.selftext
         predictions = get_sentiment(review)
-        if predictions == array([1]):
+        if predictions == np.array([1]):
             return review
         else:
             continue

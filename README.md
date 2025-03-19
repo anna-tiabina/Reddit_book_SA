@@ -146,9 +146,9 @@ yarl==1.18.3
 How to run an application:
 1. If downloaded from GitHub, the folder "application" contains the  compose.yaml, Dockerfile and the requirements.txt files to build and run the application. In the Docker terminal, one should go to the folder with app_Reddit.py and execute the following command:  docker compose up
 The application will be run on a local host http://127.0.0.1:5000/ 
-2. A user can install the required environment manually (the requirements are listed in the file requirements file), go to the folder with CCB in Command Prompt and (if the required tools mentioned above are installed and all the modules and parts of the application correctly downloaded) execute the following commands: set FLASK_APP=app_Reddit.py and flask run. The application will be on the local host http://127.0.0.1:5000/
+2. A user can install the required environment manually (the requirements are listed in the file requirements file), go to the folder with the application in Command Prompt and (if the required tools mentioned above are installed and all the modules and parts of the application correctly downloaded) execute the following commands: set FLASK_APP=app_Reddit.py and flask run. The application will be on the local host http://127.0.0.1:5000/
 
-The application can be reached via amazonlightsail.com (https://application-web.st2ff8qfgnvqm.eu-west-1.cs.amazonlightsail.com/ ), if CCB is deployed.
+The application can be reached via amazonlightsail.com (https://application-web.st2ff8qfgnvqm.eu-west-1.cs.amazonlightsail.com/ ), if the application is deployed.
 
 
 
